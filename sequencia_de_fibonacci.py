@@ -1,7 +1,7 @@
 def fibonacci(num):
     """
-    Fizemos uma função que pega como parâmetro a quantidade de resultados que o usuário deseja.
-    E aplica a sequência de de Fibonacci.
+    Fizemos uma função que recebe como parâmetro a quantidade de resultados que o usuário deseja.
+    E aplica a sequência de Fibonacci.
     """
     i, a, b = 0, 1, 1
     sequencia_fibonacci = []

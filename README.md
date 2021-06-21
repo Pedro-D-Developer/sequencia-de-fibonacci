@@ -1,4 +1,4 @@
-#Sequência de Fibonacci
+# Sequência de Fibonacci
 
 Esse mini-projeto tem um objetivo bem simples.
 
