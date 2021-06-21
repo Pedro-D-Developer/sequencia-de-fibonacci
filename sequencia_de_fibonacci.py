@@ -13,7 +13,8 @@ def fibonacci(num):
     return sequencia_fibonacci
 
 
-# Fazendo o "input" para receber a quantidade de resultados da sequência.
-input_num = int(input("Insira a quantidade da sequência de Fibonacci: "))
-# Imprimimos o resultado para o usuário.
-print(f'O resultado da sequência foi: {", ".join(str(num) for num in fibonacci(input_num))}')
+if __name__ == "__main__":
+    # Fazendo o "input" para receber a quantidade de resultados da sequência.
+    input_num = int(input("Insira a quantidade da sequência de Fibonacci: "))
+    # Imprimimos o resultado para o usuário.
+    print(f'O resultado da sequência foi: {", ".join(str(num) for num in fibonacci(input_num))}')
